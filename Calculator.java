@@ -6,5 +6,11 @@ public class Calculator {
 
     public static void main(String[] args) {
         System.out.println("Addition = " + add(5,3));
+    static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Multiplication: " + multiply(5, 3));
     }
 }
